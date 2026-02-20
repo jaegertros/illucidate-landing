@@ -334,6 +334,7 @@ async function bootstrap() {
     dom.seriesChart.innerHTML = `<p class="empty-state">${message}</p>`;
     dom.featureChart.innerHTML = `<p class="empty-state">${message}</p>`;
     dom.heatmapChart.innerHTML = `<p class="empty-state">${message}</p>`;
+    document.body.classList.add("is-ready");
     console.error(error);
   }
 }

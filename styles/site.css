@@ -89,8 +89,8 @@ body {
 }
 
 .reveal {
-  opacity: 0;
-  transform: translateY(14px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 540ms ease, transform 540ms ease;
 }
 
